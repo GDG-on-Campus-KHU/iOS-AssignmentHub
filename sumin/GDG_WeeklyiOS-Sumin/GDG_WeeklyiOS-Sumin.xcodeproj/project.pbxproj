@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		064BF4F42CB5376900975835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 064BF4DB2CB5376800975835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 064BF4E22CB5376800975835;
+			remoteInfo = "GDG_WeeklyiOS-Sumin";
+		};
+		064BF4FE2CB5376900975835 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 064BF4DB2CB5376800975835 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 064BF4E22CB5376800975835;
+			remoteInfo = "GDG_WeeklyiOS-Sumin";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		064BF4E32CB5376800975835 /* GDG_WeeklyiOS-Sumin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GDG_WeeklyiOS-Sumin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		064BF4F32CB5376900975835 /* GDG_WeeklyiOS-SuminTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GDG_WeeklyiOS-SuminTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		064BF4FD2CB5376900975835 /* GDG_WeeklyiOS-SuminUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GDG_WeeklyiOS-SuminUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		064BF4E52CB5376800975835 /* GDG_WeeklyiOS-Sumin */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GDG_WeeklyiOS-Sumin";
+			sourceTree = "<group>";
+		};
+		064BF4F62CB5376900975835 /* GDG_WeeklyiOS-SuminTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GDG_WeeklyiOS-SuminTests";
+			sourceTree = "<group>";
+		};
+		064BF5002CB5376900975835 /* GDG_WeeklyiOS-SuminUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "GDG_WeeklyiOS-SuminUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		064BF4E02CB5376800975835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064BF4F02CB5376900975835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064BF4FA2CB5376900975835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064BF4DA2CB5376800975835 = {
+			isa = PBXGroup;
+			children = (
+				064BF4E52CB5376800975835 /* GDG_WeeklyiOS-Sumin */,
+				064BF4F62CB5376900975835 /* GDG_WeeklyiOS-SuminTests */,
+				064BF5002CB5376900975835 /* GDG_WeeklyiOS-SuminUITests */,
+				064BF4E42CB5376800975835 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		064BF4E42CB5376800975835 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				064BF4E32CB5376800975835 /* GDG_WeeklyiOS-Sumin.app */,
+				064BF4F32CB5376900975835 /* GDG_WeeklyiOS-SuminTests.xctest */,
+				064BF4FD2CB5376900975835 /* GDG_WeeklyiOS-SuminUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		064BF4E22CB5376800975835 /* GDG_WeeklyiOS-Sumin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064BF5072CB5376900975835 /* Build configuration list for PBXNativeTarget "GDG_WeeklyiOS-Sumin" */;
+			buildPhases = (
+				064BF4DF2CB5376800975835 /* Sources */,
+				064BF4E02CB5376800975835 /* Frameworks */,
+				064BF4E12CB5376800975835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				064BF4E52CB5376800975835 /* GDG_WeeklyiOS-Sumin */,
+			);
+			name = "GDG_WeeklyiOS-Sumin";
+			packageProductDependencies = (
+			);
+			productName = "GDG_WeeklyiOS-Sumin";
+			productReference = 064BF4E32CB5376800975835 /* GDG_WeeklyiOS-Sumin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		064BF4F22CB5376900975835 /* GDG_WeeklyiOS-SuminTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064BF50A2CB5376900975835 /* Build configuration list for PBXNativeTarget "GDG_WeeklyiOS-SuminTests" */;
+			buildPhases = (
+				064BF4EF2CB5376900975835 /* Sources */,
+				064BF4F02CB5376900975835 /* Frameworks */,
+				064BF4F12CB5376900975835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				064BF4F52CB5376900975835 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				064BF4F62CB5376900975835 /* GDG_WeeklyiOS-SuminTests */,
+			);
+			name = "GDG_WeeklyiOS-SuminTests";
+			packageProductDependencies = (
+			);
+			productName = "GDG_WeeklyiOS-SuminTests";
+			productReference = 064BF4F32CB5376900975835 /* GDG_WeeklyiOS-SuminTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		064BF4FC2CB5376900975835 /* GDG_WeeklyiOS-SuminUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 064BF50D2CB5376900975835 /* Build configuration list for PBXNativeTarget "GDG_WeeklyiOS-SuminUITests" */;
+			buildPhases = (
+				064BF4F92CB5376900975835 /* Sources */,
+				064BF4FA2CB5376900975835 /* Frameworks */,
+				064BF4FB2CB5376900975835 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				064BF4FF2CB5376900975835 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				064BF5002CB5376900975835 /* GDG_WeeklyiOS-SuminUITests */,
+			);
+			name = "GDG_WeeklyiOS-SuminUITests";
+			packageProductDependencies = (
+			);
+			productName = "GDG_WeeklyiOS-SuminUITests";
+			productReference = 064BF4FD2CB5376900975835 /* GDG_WeeklyiOS-SuminUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		064BF4DB2CB5376800975835 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					064BF4E22CB5376800975835 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					064BF4F22CB5376900975835 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 064BF4E22CB5376800975835;
+					};
+					064BF4FC2CB5376900975835 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 064BF4E22CB5376800975835;
+					};
+				};
+			};
+			buildConfigurationList = 064BF4DE2CB5376800975835 /* Build configuration list for PBXProject "GDG_WeeklyiOS-Sumin" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 064BF4DA2CB5376800975835;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 064BF4E42CB5376800975835 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				064BF4E22CB5376800975835 /* GDG_WeeklyiOS-Sumin */,
+				064BF4F22CB5376900975835 /* GDG_WeeklyiOS-SuminTests */,
+				064BF4FC2CB5376900975835 /* GDG_WeeklyiOS-SuminUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		064BF4E12CB5376800975835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064BF4F12CB5376900975835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064BF4FB2CB5376900975835 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		064BF4DF2CB5376800975835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064BF4EF2CB5376900975835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		064BF4F92CB5376900975835 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		064BF4F52CB5376900975835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 064BF4E22CB5376800975835 /* GDG_WeeklyiOS-Sumin */;
+			targetProxy = 064BF4F42CB5376900975835 /* PBXContainerItemProxy */;
+		};
+		064BF4FF2CB5376900975835 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 064BF4E22CB5376800975835 /* GDG_WeeklyiOS-Sumin */;
+			targetProxy = 064BF4FE2CB5376900975835 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		064BF5052CB5376900975835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		064BF5062CB5376900975835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		064BF5082CB5376900975835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GDG_WeeklyiOS-Sumin/Preview Content\"";
+				DEVELOPMENT_TEAM = BY5DBLMC8V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gdgoncampus.GDG-WeeklyiOS-Sumin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		064BF5092CB5376900975835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GDG_WeeklyiOS-Sumin/Preview Content\"";
+				DEVELOPMENT_TEAM = BY5DBLMC8V;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gdgoncampus.GDG-WeeklyiOS-Sumin";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		064BF50B2CB5376900975835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BY5DBLMC8V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gdgoncampus.GDG-WeeklyiOS-SuminTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDG_WeeklyiOS-Sumin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GDG_WeeklyiOS-Sumin";
+			};
+			name = Debug;
+		};
+		064BF50C2CB5376900975835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BY5DBLMC8V;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gdgoncampus.GDG-WeeklyiOS-SuminTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GDG_WeeklyiOS-Sumin.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GDG_WeeklyiOS-Sumin";
+			};
+			name = Release;
+		};
+		064BF50E2CB5376900975835 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BY5DBLMC8V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gdgoncampus.GDG-WeeklyiOS-SuminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GDG_WeeklyiOS-Sumin";
+			};
+			name = Debug;
+		};
+		064BF50F2CB5376900975835 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = BY5DBLMC8V;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gdgoncampus.GDG-WeeklyiOS-SuminUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GDG_WeeklyiOS-Sumin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		064BF4DE2CB5376800975835 /* Build configuration list for PBXProject "GDG_WeeklyiOS-Sumin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064BF5052CB5376900975835 /* Debug */,
+				064BF5062CB5376900975835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064BF5072CB5376900975835 /* Build configuration list for PBXNativeTarget "GDG_WeeklyiOS-Sumin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064BF5082CB5376900975835 /* Debug */,
+				064BF5092CB5376900975835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064BF50A2CB5376900975835 /* Build configuration list for PBXNativeTarget "GDG_WeeklyiOS-SuminTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064BF50B2CB5376900975835 /* Debug */,
+				064BF50C2CB5376900975835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		064BF50D2CB5376900975835 /* Build configuration list for PBXNativeTarget "GDG_WeeklyiOS-SuminUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				064BF50E2CB5376900975835 /* Debug */,
+				064BF50F2CB5376900975835 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 064BF4DB2CB5376800975835 /* Project object */;
+}
