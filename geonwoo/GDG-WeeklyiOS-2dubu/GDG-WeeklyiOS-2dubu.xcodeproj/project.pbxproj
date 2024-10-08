@@ -12,6 +12,7 @@
 		C6FBDF1D2CB535060093B962 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FBDF1C2CB535060093B962 /* Preview Assets.xcassets */; };
 		C6FBDF252CB535550093B962 /* Week3_Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FBDF242CB535550093B962 /* Week3_Practice.swift */; };
 		C6FBDF272CB53AA10093B962 /* Week3_Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FBDF262CB53AA10093B962 /* Week3_Assignment.swift */; };
+		C6FBDF2A2CB55C170093B962 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FBDF292CB55C170093B962 /* View+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		C6FBDF1C2CB535060093B962 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C6FBDF242CB535550093B962 /* Week3_Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3_Practice.swift; sourceTree = "<group>"; };
 		C6FBDF262CB53AA10093B962 /* Week3_Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3_Assignment.swift; sourceTree = "<group>"; };
+		C6FBDF292CB55C170093B962 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				C6FBDF152CB535050093B962 /* GDG_WeeklyiOS_2dubuApp.swift */,
+				C6FBDF282CB55BFD0093B962 /* Helper */,
 				C6FBDF232CB5352B0093B962 /* Week3 */,
 				C6FBDF192CB535060093B962 /* Assets.xcassets */,
 				C6FBDF1B2CB535060093B962 /* Preview Content */,
@@ -76,6 +79,14 @@
 				C6FBDF262CB53AA10093B962 /* Week3_Assignment.swift */,
 			);
 			path = Week3;
+			sourceTree = "<group>";
+		};
+		C6FBDF282CB55BFD0093B962 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C6FBDF292CB55C170093B962 /* View+Extension.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,6 +161,7 @@
 			files = (
 				C6FBDF272CB53AA10093B962 /* Week3_Assignment.swift in Sources */,
 				C6FBDF162CB535050093B962 /* GDG_WeeklyiOS_2dubuApp.swift in Sources */,
+				C6FBDF2A2CB55C170093B962 /* View+Extension.swift in Sources */,
 				C6FBDF252CB535550093B962 /* Week3_Practice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
