@@ -22,7 +22,7 @@ struct Week3_Assignment: View {
         DragGesture()
             .onChanged { value in
                 translation = value.translation
-                isDragging = true
+                withAnimation { isDragging = true }
             }
             .onEnded { value in
                 withAnimation {
