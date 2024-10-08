@@ -42,10 +42,11 @@ struct Week3_Assignment: View {
                         .font(.system(size: 10, weight: .light))
                         .foregroundColor(darken(color: kyungheeRed, amount: 0.2))
                         .rotationEffect(Angle(degrees: 90))
-                        .offset(x: 5, y: 45)
+                        .offset(x: 5, y: 50)
                 }
                 .overlay(alignment: .top) {
                     chip
+                        .offset(x: 25, y: 25)
                 }
             
             VStack(spacing: 30) {
@@ -81,7 +82,6 @@ struct Week3_Assignment: View {
                 .fill(kyungheeGold)
                 .frame(width: 40, height: 50)
         }
-        .offset(x: 25, y: 20)
     }
 }
 
