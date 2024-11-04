@@ -7,20 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C600383E2CD9054C006C6F4D /* Week4_Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C600383D2CD9054C006C6F4D /* Week4_Assignment.swift */; };
 		C6FBDF162CB535050093B962 /* GDG_WeeklyiOS_2dubuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FBDF152CB535050093B962 /* GDG_WeeklyiOS_2dubuApp.swift */; };
 		C6FBDF1A2CB535060093B962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FBDF192CB535060093B962 /* Assets.xcassets */; };
 		C6FBDF1D2CB535060093B962 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FBDF1C2CB535060093B962 /* Preview Assets.xcassets */; };
 		C6FBDF252CB535550093B962 /* Week3_Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FBDF242CB535550093B962 /* Week3_Practice.swift */; };
 		C6FBDF272CB53AA10093B962 /* Week3_Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FBDF262CB53AA10093B962 /* Week3_Assignment.swift */; };
+		C6FBDF2A2CB55C170093B962 /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FBDF292CB55C170093B962 /* View+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C600383D2CD9054C006C6F4D /* Week4_Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4_Assignment.swift; sourceTree = "<group>"; };
 		C6FBDF122CB535050093B962 /* GDG-WeeklyiOS-2dubu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GDG-WeeklyiOS-2dubu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FBDF152CB535050093B962 /* GDG_WeeklyiOS_2dubuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDG_WeeklyiOS_2dubuApp.swift; sourceTree = "<group>"; };
 		C6FBDF192CB535060093B962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6FBDF1C2CB535060093B962 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C6FBDF242CB535550093B962 /* Week3_Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3_Practice.swift; sourceTree = "<group>"; };
 		C6FBDF262CB53AA10093B962 /* Week3_Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3_Assignment.swift; sourceTree = "<group>"; };
+		C6FBDF292CB55C170093B962 /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +38,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C600383C2CD90522006C6F4D /* Week4 */ = {
+			isa = PBXGroup;
+			children = (
+				C600383D2CD9054C006C6F4D /* Week4_Assignment.swift */,
+			);
+			path = Week4;
+			sourceTree = "<group>";
+		};
 		C6FBDF092CB535050093B962 = {
 			isa = PBXGroup;
 			children = (
@@ -54,7 +66,9 @@
 			isa = PBXGroup;
 			children = (
 				C6FBDF152CB535050093B962 /* GDG_WeeklyiOS_2dubuApp.swift */,
+				C6FBDF282CB55BFD0093B962 /* Helper */,
 				C6FBDF232CB5352B0093B962 /* Week3 */,
+				C600383C2CD90522006C6F4D /* Week4 */,
 				C6FBDF192CB535060093B962 /* Assets.xcassets */,
 				C6FBDF1B2CB535060093B962 /* Preview Content */,
 			);
@@ -76,6 +90,14 @@
 				C6FBDF262CB53AA10093B962 /* Week3_Assignment.swift */,
 			);
 			path = Week3;
+			sourceTree = "<group>";
+		};
+		C6FBDF282CB55BFD0093B962 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C6FBDF292CB55C170093B962 /* View+Extension.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,8 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C600383E2CD9054C006C6F4D /* Week4_Assignment.swift in Sources */,
 				C6FBDF272CB53AA10093B962 /* Week3_Assignment.swift in Sources */,
 				C6FBDF162CB535050093B962 /* GDG_WeeklyiOS_2dubuApp.swift in Sources */,
+				C6FBDF2A2CB55C170093B962 /* View+Extension.swift in Sources */,
 				C6FBDF252CB535550093B962 /* Week3_Practice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
