@@ -11,7 +11,27 @@ import SwiftUI
 struct GDG_WeeklyiOS_2dubuApp: App {
     var body: some Scene {
         WindowGroup {
-            Week3_Practice()
+            NavigationView {
+                VStack(spacing: 20) {
+                    NavigationLink {
+                        Week3_Practice()
+                    } label: {
+                        Text("Week3_Practice")
+                    }
+                    
+                    NavigationLink {
+                        Week3_Assignment()
+                    } label: {
+                        Text("Week3_Assignment")
+                    }
+                    
+                    NavigationLink {
+                        Week4_Assignment()
+                    } label: {
+                        Text("Week4_Assignment")
+                    }
+                }
+            }
         }
     }
 }
