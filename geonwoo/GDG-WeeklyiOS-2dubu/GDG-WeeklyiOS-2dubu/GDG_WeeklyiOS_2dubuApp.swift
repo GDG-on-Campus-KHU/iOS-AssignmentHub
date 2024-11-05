@@ -12,26 +12,29 @@ struct GDG_WeeklyiOS_2dubuApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                VStack(spacing: 20) {
-                    NavigationLink {
-                        Week3_Practice()
-                    } label: {
-                        Text("Week3_Practice")
+                List {
+                    Section("Week 3") {
+                        AssignmentLink(destination: Week3_Practice(), label: "Week3 Practice")
+                        AssignmentLink(destination: Week3_Assignment(), label: "Week3 Assignment")
                     }
                     
-                    NavigationLink {
-                        Week3_Assignment()
-                    } label: {
-                        Text("Week3_Assignment")
-                    }
-                    
-                    NavigationLink {
-                        Week4_Assignment()
-                    } label: {
-                        Text("Week4_Assignment")
+                    Section("Week 4") {
+                        AssignmentLink(destination: Week4_Assignment(), label: "Week4 Assignment")
                     }
                 }
+                .navigationTitle("GDG WeeklyiOS 😼")
             }
+        }
+    }
+}
+
+private struct AssignmentLink<Destination: View>: View {
+    let destination: Destination
+    let label: String
+    
+    var body: some View {
+        NavigationLink(destination: destination.navigationBarTitleDisplayMode(.inline)) {
+            Text(label)
         }
     }
 }
