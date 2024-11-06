@@ -10,6 +10,8 @@
 		C600383E2CD9054C006C6F4D /* Week4_Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C600383D2CD9054C006C6F4D /* Week4_Assignment.swift */; };
 		C60038402CDA1B96006C6F4D /* Week4_Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C600383F2CDA1B96006C6F4D /* Week4_Practice.swift */; };
 		C65FCAAF2CDA20C100A184E3 /* RadiusBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65FCAAE2CDA20C100A184E3 /* RadiusBorder.swift */; };
+		C65FCAB42CDB29FD00A184E3 /* MoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65FCAB32CDB29FD00A184E3 /* MoodApp.swift */; };
+		C65FCAB62CDB2B2C00A184E3 /* RandomColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65FCAB52CDB2B2C00A184E3 /* RandomColorApp.swift */; };
 		C6FBDF162CB535050093B962 /* GDG_WeeklyiOS_2dubuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FBDF152CB535050093B962 /* GDG_WeeklyiOS_2dubuApp.swift */; };
 		C6FBDF1A2CB535060093B962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FBDF192CB535060093B962 /* Assets.xcassets */; };
 		C6FBDF1D2CB535060093B962 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FBDF1C2CB535060093B962 /* Preview Assets.xcassets */; };
@@ -22,6 +24,8 @@
 		C600383D2CD9054C006C6F4D /* Week4_Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4_Assignment.swift; sourceTree = "<group>"; };
 		C600383F2CDA1B96006C6F4D /* Week4_Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4_Practice.swift; sourceTree = "<group>"; };
 		C65FCAAE2CDA20C100A184E3 /* RadiusBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusBorder.swift; sourceTree = "<group>"; };
+		C65FCAB32CDB29FD00A184E3 /* MoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodApp.swift; sourceTree = "<group>"; };
+		C65FCAB52CDB2B2C00A184E3 /* RandomColorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorApp.swift; sourceTree = "<group>"; };
 		C6FBDF122CB535050093B962 /* GDG-WeeklyiOS-2dubu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GDG-WeeklyiOS-2dubu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FBDF152CB535050093B962 /* GDG_WeeklyiOS_2dubuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDG_WeeklyiOS_2dubuApp.swift; sourceTree = "<group>"; };
 		C6FBDF192CB535060093B962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +55,15 @@
 			path = Week4;
 			sourceTree = "<group>";
 		};
+		C65FCAB22CDB29DC00A184E3 /* ETC */ = {
+			isa = PBXGroup;
+			children = (
+				C65FCAB32CDB29FD00A184E3 /* MoodApp.swift */,
+				C65FCAB52CDB2B2C00A184E3 /* RandomColorApp.swift */,
+			);
+			path = ETC;
+			sourceTree = "<group>";
+		};
 		C6FBDF092CB535050093B962 = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +87,7 @@
 				C6FBDF282CB55BFD0093B962 /* Helper */,
 				C6FBDF232CB5352B0093B962 /* Week3 */,
 				C600383C2CD90522006C6F4D /* Week4 */,
+				C65FCAB22CDB29DC00A184E3 /* ETC */,
 				C6FBDF192CB535060093B962 /* Assets.xcassets */,
 				C6FBDF1B2CB535060093B962 /* Preview Content */,
 			);
@@ -176,8 +190,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65FCAB42CDB29FD00A184E3 /* MoodApp.swift in Sources */,
 				C600383E2CD9054C006C6F4D /* Week4_Assignment.swift in Sources */,
 				C6FBDF272CB53AA10093B962 /* Week3_Assignment.swift in Sources */,
+				C65FCAB62CDB2B2C00A184E3 /* RandomColorApp.swift in Sources */,
 				C6FBDF162CB535050093B962 /* GDG_WeeklyiOS_2dubuApp.swift in Sources */,
 				C65FCAAF2CDA20C100A184E3 /* RadiusBorder.swift in Sources */,
 				C6FBDF2A2CB55C170093B962 /* View+Extension.swift in Sources */,
