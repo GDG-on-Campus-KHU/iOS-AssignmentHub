@@ -22,6 +22,11 @@ struct GDG_WeeklyiOS_2dubuApp: App {
                         AssignmentLink(destination: Week4_Practice(), label: "Week4 Practice")
                         AssignmentLink(destination: Week4_Assignment(), label: "Week4 Assignment")
                     }
+                    
+                    Section("etc") {
+                        AssignmentLink(destination: MoodApp(), label: "Mood App")
+                        
+                    }
                 }
                 .navigationTitle("GDG WeeklyiOS 😼")
             }
