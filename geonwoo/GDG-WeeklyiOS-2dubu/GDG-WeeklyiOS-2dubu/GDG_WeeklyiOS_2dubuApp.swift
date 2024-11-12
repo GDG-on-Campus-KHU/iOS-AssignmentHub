@@ -23,6 +23,11 @@ struct GDG_WeeklyiOS_2dubuApp: App {
                         AssignmentLink(destination: Week4_Assignment(), label: "Week4 Assignment")
                     }
                     
+                    Section("Week 5") {
+                        AssignmentLink(destination: Week5_Assignment1(), label: "Week5 Assignment1")
+                        AssignmentLink(destination: Week5_Assignment2(), label: "Week5 Assignment2")
+                    }
+                    
                     Section("etc") {
                         AssignmentLink(destination: RandomColorApp(), label: "Random Color App")
                         AssignmentLink(destination: MoodApp(), label: "Mood App")
