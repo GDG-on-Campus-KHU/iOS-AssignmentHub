@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C600383E2CD9054C006C6F4D /* Week4_Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C600383D2CD9054C006C6F4D /* Week4_Assignment.swift */; };
 		C60038402CDA1B96006C6F4D /* Week4_Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C600383F2CDA1B96006C6F4D /* Week4_Practice.swift */; };
+		C64C28302CE3095F00131B70 /* Week5_Assignment2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64C282F2CE3095F00131B70 /* Week5_Assignment2.swift */; };
 		C64C28322CE3156600131B70 /* Week5_Assignment1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64C28312CE3156600131B70 /* Week5_Assignment1.swift */; };
 		C65FCAAF2CDA20C100A184E3 /* RadiusBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65FCAAE2CDA20C100A184E3 /* RadiusBorder.swift */; };
 		C65FCAB42CDB29FD00A184E3 /* MoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65FCAB32CDB29FD00A184E3 /* MoodApp.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		C600383D2CD9054C006C6F4D /* Week4_Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4_Assignment.swift; sourceTree = "<group>"; };
 		C600383F2CDA1B96006C6F4D /* Week4_Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4_Practice.swift; sourceTree = "<group>"; };
+		C64C282F2CE3095F00131B70 /* Week5_Assignment2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week5_Assignment2.swift; sourceTree = "<group>"; };
 		C64C28312CE3156600131B70 /* Week5_Assignment1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week5_Assignment1.swift; sourceTree = "<group>"; };
 		C65FCAAE2CDA20C100A184E3 /* RadiusBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusBorder.swift; sourceTree = "<group>"; };
 		C65FCAB32CDB29FD00A184E3 /* MoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodApp.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				C64C28312CE3156600131B70 /* Week5_Assignment1.swift */,
+				C64C282F2CE3095F00131B70 /* Week5_Assignment2.swift */,
 			);
 			path = Week5;
 			sourceTree = "<group>";
@@ -210,6 +213,7 @@
 				C64C28322CE3156600131B70 /* Week5_Assignment1.swift in Sources */,
 				C6FBDF2A2CB55C170093B962 /* View+Extension.swift in Sources */,
 				C6FBDF252CB535550093B962 /* Week3_Practice.swift in Sources */,
+				C64C28302CE3095F00131B70 /* Week5_Assignment2.swift in Sources */,
 				C60038402CDA1B96006C6F4D /* Week4_Practice.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
