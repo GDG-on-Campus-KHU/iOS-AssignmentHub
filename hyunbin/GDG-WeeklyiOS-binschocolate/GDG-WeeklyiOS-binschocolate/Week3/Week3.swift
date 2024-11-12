@@ -22,7 +22,7 @@ struct Week3: View {
             .fill(Color.pink)
             .frame(width: 160, height: 160)
             .offset(y: -30)
-            .overlay(alignment: .topLeading, content:)
+            // .overlay(alignment: .topLeading, content:)
     }
 }
 
