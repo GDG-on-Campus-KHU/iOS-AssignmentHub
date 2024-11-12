@@ -12,6 +12,7 @@
 		D6762EAB2CB534FD00530880 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6762EAA2CB534FD00530880 /* Preview Assets.xcassets */; };
 		D6762EB32CB5355700530880 /* Week3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6762EB22CB5355700530880 /* Week3.swift */; };
 		D6762EB52CB53AD600530880 /* Week3_Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6762EB42CB53AD600530880 /* Week3_Assignment.swift */; };
+		D67C3A8E2CDA1E8600A0C952 /* Week4_Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D67C3A8D2CDA1E8600A0C952 /* Week4_Practice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D6762EAA2CB534FD00530880 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D6762EB22CB5355700530880 /* Week3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3.swift; sourceTree = "<group>"; };
 		D6762EB42CB53AD600530880 /* Week3_Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3_Assignment.swift; sourceTree = "<group>"; };
+		D67C3A8D2CDA1E8600A0C952 /* Week4_Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4_Practice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXGroup;
 			children = (
 				D6762EA32CB534FB00530880 /* GDG_WeeklyiOS_Gardeniaa101App.swift */,
+				D67C3A8C2CDA1E7700A0C952 /* Week4 */,
 				D6762EB12CB5353100530880 /* Week3 */,
 				D6762EA72CB534FD00530880 /* Assets.xcassets */,
 				D6762EA92CB534FD00530880 /* Preview Content */,
@@ -76,6 +79,14 @@
 				D6762EB42CB53AD600530880 /* Week3_Assignment.swift */,
 			);
 			path = Week3;
+			sourceTree = "<group>";
+		};
+		D67C3A8C2CDA1E7700A0C952 /* Week4 */ = {
+			isa = PBXGroup;
+			children = (
+				D67C3A8D2CDA1E8600A0C952 /* Week4_Practice.swift */,
+			);
+			path = Week4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6762EB52CB53AD600530880 /* Week3_Assignment.swift in Sources */,
+				D67C3A8E2CDA1E8600A0C952 /* Week4_Practice.swift in Sources */,
 				D6762EA42CB534FB00530880 /* GDG_WeeklyiOS_Gardeniaa101App.swift in Sources */,
 				D6762EB32CB5355700530880 /* Week3.swift in Sources */,
 			);
