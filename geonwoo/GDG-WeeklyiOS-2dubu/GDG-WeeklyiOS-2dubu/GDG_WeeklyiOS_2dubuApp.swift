@@ -29,6 +29,7 @@ struct GDG_WeeklyiOS_2dubuApp: App {
                     }
                     
                     Section("etc") {
+                        AssignmentLink(destination: PrettyTimer(), label: "PrettyTimer (SprintChallenge)")
                         AssignmentLink(destination: RandomColorApp(), label: "Random Color App")
                         AssignmentLink(destination: MoodApp(), label: "Mood App")
                     }
