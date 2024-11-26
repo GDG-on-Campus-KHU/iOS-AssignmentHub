@@ -11,7 +11,7 @@ final class NavigationManager: ObservableObject {
     @Published var path: NavigationPath = NavigationPath()
     
     func popToRoot() {
-        path = NavigationPath()
+        path = .init()
     }
 }
 
@@ -21,6 +21,7 @@ enum AppScreen: Hashable {
     case final
 }
 
+// root view
 struct Week6_Practice: View {
     @StateObject private var navState = NavigationManager()
     
@@ -43,8 +44,6 @@ struct Week6_Practice: View {
 }
 
 struct Week6_HomeView: View {
-    @EnvironmentObject var appState: NavigationManager
-    
     var body: some View {
         VStack(spacing: 20) {
             Text("Welcome to Home View")
@@ -58,8 +57,6 @@ struct Week6_HomeView: View {
 }
 
 struct Week6_DetailsView: View {
-    @EnvironmentObject var appState: NavigationManager
-    
     var body: some View {
         VStack(spacing: 20) {
             Text("You're on the Details View")
