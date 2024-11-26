@@ -20,6 +20,7 @@
 		C6516EA52CEACF9500FCFAF2 /* WantedSans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6516E9E2CEACF9500FCFAF2 /* WantedSans-Bold.otf */; };
 		C6516EA62CEACF9500FCFAF2 /* WantedSans-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = C6516EA12CEACF9500FCFAF2 /* WantedSans-SemiBold.otf */; };
 		C6516F572CF5BD2400FCFAF2 /* Week6_Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6516F562CF5BD2400FCFAF2 /* Week6_Practice.swift */; };
+		C6516F592CF5BFD900FCFAF2 /* Week6_Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6516F582CF5BFD900FCFAF2 /* Week6_Assignment.swift */; };
 		C65FCAAF2CDA20C100A184E3 /* RadiusBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65FCAAE2CDA20C100A184E3 /* RadiusBorder.swift */; };
 		C65FCAB42CDB29FD00A184E3 /* MoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65FCAB32CDB29FD00A184E3 /* MoodApp.swift */; };
 		C65FCAB62CDB2B2C00A184E3 /* RandomColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65FCAB52CDB2B2C00A184E3 /* RandomColorApp.swift */; };
@@ -46,6 +47,7 @@
 		C6516EA12CEACF9500FCFAF2 /* WantedSans-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "WantedSans-SemiBold.otf"; sourceTree = "<group>"; };
 		C6516EA72CEACFA700FCFAF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		C6516F562CF5BD2400FCFAF2 /* Week6_Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week6_Practice.swift; sourceTree = "<group>"; };
+		C6516F582CF5BFD900FCFAF2 /* Week6_Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week6_Assignment.swift; sourceTree = "<group>"; };
 		C65FCAAE2CDA20C100A184E3 /* RadiusBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusBorder.swift; sourceTree = "<group>"; };
 		C65FCAB32CDB29FD00A184E3 /* MoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodApp.swift; sourceTree = "<group>"; };
 		C65FCAB52CDB2B2C00A184E3 /* RandomColorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorApp.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 			isa = PBXGroup;
 			children = (
 				C6516F562CF5BD2400FCFAF2 /* Week6_Practice.swift */,
+				C6516F582CF5BFD900FCFAF2 /* Week6_Assignment.swift */,
 			);
 			path = Week6;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				C6516E9B2CEACF6600FCFAF2 /* SimpleButton.swift in Sources */,
 				C65FCAB42CDB29FD00A184E3 /* MoodApp.swift in Sources */,
 				C600383E2CD9054C006C6F4D /* Week4_Assignment.swift in Sources */,
+				C6516F592CF5BFD900FCFAF2 /* Week6_Assignment.swift in Sources */,
 				C6FBDF272CB53AA10093B962 /* Week3_Assignment.swift in Sources */,
 				C6516E962CEACF2100FCFAF2 /* PrettyTimer.swift in Sources */,
 				C65FCAB62CDB2B2C00A184E3 /* RandomColorApp.swift in Sources */,
