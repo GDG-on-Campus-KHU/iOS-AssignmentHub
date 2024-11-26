@@ -22,11 +22,18 @@ struct GDG_WeeklyiOS_binschocolateApp: App {
                         AssignmentLink(destination: Week4_Assignment(), label: "Week4 Assignment")
                     }
                     Section("Week 5") {
-                        AssignmentLink(destination: Week5_Practice(), label: "Week5 Practice")
-                        AssignmentLink(destination: Week5_Assignment(), label: "Week5 Assignment")
+                        AssignmentLink(destination: Week5_Assignment1(), label: "Week5_Assignment1")
+                        AssignmentLink(destination: Week5_Assignment2(), label: "Week5 Assignment2")
                     }
-                    
+                    Section("SprintChallenge") {
+                        AssignmentLink(destination: SprintChallenge_Timer(), label: "SprintChallenge_Timer")
+                    }
+                    Section("Week 6") {
+                        AssignmentLink(destination: Week3_Practice(), label: "Week6_Practice")
+                       // AssignmentLink(destination: Week3_Assignment(), label: "Week3 Assignment")
+                    }
                 }
+                
                 .navigationTitle("박이의 앱 개발😼")
             }
         }

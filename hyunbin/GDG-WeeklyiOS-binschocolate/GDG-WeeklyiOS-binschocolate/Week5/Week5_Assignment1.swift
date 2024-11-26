@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Week5_Practice: View {
+struct Week5_Assignment1: View {
     var body: some View {
         NavigationView {
             ScrollView {
@@ -32,5 +32,5 @@ struct Week5_Practice: View {
 }
 
 #Preview {
-    Week5_Practice()
+    Week5_Assignment1()
 }
