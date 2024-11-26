@@ -46,7 +46,7 @@ struct SprintChallenge_Timer: View {
                         .foregroundColor(.black)
                         .offset(y:10)
                     
-          
+                    
                     Text(formatTime(timeremaining))
                         .foregroundStyle(.black)
                         .font(.system(size: 50))
@@ -74,14 +74,18 @@ private func formatTime(_ seconds: Int) -> String {
     return String(format: "%02d:%02d", minutes, seconds)
 }
 
+
+
+
 private extension SprintChallenge_Timer{
-    //countdown 시작
+    //start 시작
     private func startcountdown() {
         timeremaining = totaltime
         progress=1.0
         isrunning=true
     }
     
+    //reset 시작
     private func resetcountdown(){
         timeremaining=totaltime
         progress=1.0
@@ -101,6 +105,8 @@ private extension SprintChallenge_Timer{
     }
 }
 
+
+/*
 fileprivate struct timeheaderview: View {
     let timeremaining : Int
     
@@ -112,6 +118,9 @@ fileprivate struct timeheaderview: View {
             .offset(y:20)
     }
 }
+*/
+
+
 
 fileprivate struct startbutton: View {
     let isrunning : Bool
@@ -146,6 +155,9 @@ fileprivate struct startbutton: View {
         }
     }
 }
+
+
+
 
 fileprivate struct prgressivecircleview : View {
     let progress : CGFloat

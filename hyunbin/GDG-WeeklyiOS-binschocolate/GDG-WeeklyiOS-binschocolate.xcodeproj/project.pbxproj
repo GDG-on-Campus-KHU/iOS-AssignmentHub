@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		913297FF2CE5FF6E009CCAA7 /* week5_practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913297FE2CE5FF6E009CCAA7 /* week5_practice.swift */; };
 		913298022CE85741009CCAA7 /* SprintChallenge_Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913298012CE85741009CCAA7 /* SprintChallenge_Timer.swift */; };
+		915A4FEC2CF5CA390085A71D /* Week6_Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 915A4FEB2CF5CA390085A71D /* Week6_Practice.swift */; };
 		91861D132CE3C6E2003D5EF5 /* Week4_Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91861D122CE3C6E2003D5EF5 /* Week4_Assignment.swift */; };
 		91861D162CE3C719003D5EF5 /* Week5_Assignment1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91861D152CE3C719003D5EF5 /* Week5_Assignment1.swift */; };
 		91861D182CE3C726003D5EF5 /* Week5_Assignment2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91861D172CE3C726003D5EF5 /* Week5_Assignment2.swift */; };
@@ -22,6 +24,7 @@
 /* Begin PBXFileReference section */
 		913297FE2CE5FF6E009CCAA7 /* week5_practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week5_practice.swift; sourceTree = "<group>"; };
 		913298012CE85741009CCAA7 /* SprintChallenge_Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SprintChallenge_Timer.swift; sourceTree = "<group>"; };
+		915A4FEB2CF5CA390085A71D /* Week6_Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week6_Practice.swift; sourceTree = "<group>"; };
 		91861D122CE3C6E2003D5EF5 /* Week4_Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4_Assignment.swift; sourceTree = "<group>"; };
 		91861D152CE3C719003D5EF5 /* Week5_Assignment1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week5_Assignment1.swift; sourceTree = "<group>"; };
 		91861D172CE3C726003D5EF5 /* Week5_Assignment2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week5_Assignment2.swift; sourceTree = "<group>"; };
@@ -51,6 +54,14 @@
 				913298012CE85741009CCAA7 /* SprintChallenge_Timer.swift */,
 			);
 			path = SprintChallenge;
+			sourceTree = "<group>";
+		};
+		915A4FEA2CF5CA050085A71D /* Week6 */ = {
+			isa = PBXGroup;
+			children = (
+				915A4FEB2CF5CA390085A71D /* Week6_Practice.swift */,
+			);
+			path = Week6;
 			sourceTree = "<group>";
 		};
 		91861D142CE3C6F2003D5EF5 /* Week5 */ = {
@@ -87,6 +98,7 @@
 				91D5C3112CDA1B57001C6F6F /* Week4 */,
 				91861D142CE3C6F2003D5EF5 /* Week5 */,
 				913298002CE856EA009CCAA7 /* SprintChallenge */,
+				915A4FEA2CF5CA050085A71D /* Week6 */,
 				91D5C2FD2CB5350D001C6F6F /* Assets.xcassets */,
 				91D5C2FF2CB5350D001C6F6F /* Preview Content */,
 			);
@@ -190,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91D5C30B2CB53AAB001C6F6F /* Week3_Assignment.swift in Sources */,
+				915A4FEC2CF5CA390085A71D /* Week6_Practice.swift in Sources */,
 				91D5C3132CDA1B75001C6F6F /* Week4_Practice.swift in Sources */,
 				913297FF2CE5FF6E009CCAA7 /* week5_practice.swift in Sources */,
 				91D5C2FA2CB5350C001C6F6F /* GDG_WeeklyiOS_binschocolateApp.swift in Sources */,
