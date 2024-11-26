@@ -28,6 +28,11 @@ struct GDG_WeeklyiOS_2dubuApp: App {
                         AssignmentLink(destination: Week5_Assignment2(), label: "Week5 Assignment2")
                     }
                     
+                    Section("Week 6") {
+                        AssignmentLink(destination: Week6_Practice(), label: "Week6 Practice")
+                        AssignmentLink(destination: Week6_Assignment(), label: "Week6_Assignment")
+                    }
+                    
                     Section("etc") {
                         AssignmentLink(destination: PrettyTimer(), label: "PrettyTimer (SprintChallenge)")
                         AssignmentLink(destination: RandomColorApp(), label: "Random Color App")
