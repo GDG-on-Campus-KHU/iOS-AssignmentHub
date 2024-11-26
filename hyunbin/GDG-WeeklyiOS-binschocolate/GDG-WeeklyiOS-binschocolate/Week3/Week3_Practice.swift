@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Week3: View {
+struct Week3_Practice: View {
     var body: some View {
         VStack(spacing: 0) {
             Color.red.frame(height: 400)
@@ -22,7 +22,7 @@ struct Week3: View {
             .fill(Color.pink)
             .frame(width: 160, height: 160)
             .offset(y: -30)
-            .overlay(alignment: .topLeading, content:)
+            // .overlay(alignment: .topLeading, content:)
     }
 }
 
@@ -34,6 +34,6 @@ struct Week3: View {
 
 
 #Preview {
-    Week3()
+    Week3_Practice()
 }
 

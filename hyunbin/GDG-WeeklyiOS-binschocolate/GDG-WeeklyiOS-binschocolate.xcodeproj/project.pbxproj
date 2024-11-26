@@ -7,20 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		91861D132CE3C6E2003D5EF5 /* Week4_Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91861D122CE3C6E2003D5EF5 /* Week4_Assignment.swift */; };
+		91861D162CE3C719003D5EF5 /* Week5_Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91861D152CE3C719003D5EF5 /* Week5_Practice.swift */; };
+		91861D182CE3C726003D5EF5 /* Week5_Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91861D172CE3C726003D5EF5 /* Week5_Assignment.swift */; };
 		91D5C2FA2CB5350C001C6F6F /* GDG_WeeklyiOS_binschocolateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5C2F92CB5350C001C6F6F /* GDG_WeeklyiOS_binschocolateApp.swift */; };
 		91D5C2FE2CB5350D001C6F6F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D5C2FD2CB5350D001C6F6F /* Assets.xcassets */; };
 		91D5C3012CB5350D001C6F6F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91D5C3002CB5350D001C6F6F /* Preview Assets.xcassets */; };
-		91D5C3092CB535BC001C6F6F /* Week3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5C3082CB535BC001C6F6F /* Week3.swift */; };
+		91D5C3092CB535BC001C6F6F /* Week3_Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5C3082CB535BC001C6F6F /* Week3_Practice.swift */; };
 		91D5C30B2CB53AAB001C6F6F /* Week3_Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5C30A2CB53AAB001C6F6F /* Week3_Assignment.swift */; };
+		91D5C3132CDA1B75001C6F6F /* Week4_Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91D5C3122CDA1B75001C6F6F /* Week4_Practice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		91861D122CE3C6E2003D5EF5 /* Week4_Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4_Assignment.swift; sourceTree = "<group>"; };
+		91861D152CE3C719003D5EF5 /* Week5_Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week5_Practice.swift; sourceTree = "<group>"; };
+		91861D172CE3C726003D5EF5 /* Week5_Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week5_Assignment.swift; sourceTree = "<group>"; };
 		91D5C2F62CB5350C001C6F6F /* GDG-WeeklyiOS-binschocolate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GDG-WeeklyiOS-binschocolate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		91D5C2F92CB5350C001C6F6F /* GDG_WeeklyiOS_binschocolateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDG_WeeklyiOS_binschocolateApp.swift; sourceTree = "<group>"; };
 		91D5C2FD2CB5350D001C6F6F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		91D5C3002CB5350D001C6F6F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		91D5C3082CB535BC001C6F6F /* Week3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3.swift; sourceTree = "<group>"; };
+		91D5C3082CB535BC001C6F6F /* Week3_Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3_Practice.swift; sourceTree = "<group>"; };
 		91D5C30A2CB53AAB001C6F6F /* Week3_Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week3_Assignment.swift; sourceTree = "<group>"; };
+		91D5C3122CDA1B75001C6F6F /* Week4_Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4_Practice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -34,6 +42,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		91861D142CE3C6F2003D5EF5 /* Week5 */ = {
+			isa = PBXGroup;
+			children = (
+				91861D152CE3C719003D5EF5 /* Week5_Practice.swift */,
+				91861D172CE3C726003D5EF5 /* Week5_Assignment.swift */,
+			);
+			path = Week5;
+			sourceTree = "<group>";
+		};
 		91D5C2ED2CB5350C001C6F6F = {
 			isa = PBXGroup;
 			children = (
@@ -55,6 +72,8 @@
 			children = (
 				91D5C2F92CB5350C001C6F6F /* GDG_WeeklyiOS_binschocolateApp.swift */,
 				91D5C3072CB5359F001C6F6F /* Week3 */,
+				91D5C3112CDA1B57001C6F6F /* Week4 */,
+				91861D142CE3C6F2003D5EF5 /* Week5 */,
 				91D5C2FD2CB5350D001C6F6F /* Assets.xcassets */,
 				91D5C2FF2CB5350D001C6F6F /* Preview Content */,
 			);
@@ -72,10 +91,19 @@
 		91D5C3072CB5359F001C6F6F /* Week3 */ = {
 			isa = PBXGroup;
 			children = (
-				91D5C3082CB535BC001C6F6F /* Week3.swift */,
+				91D5C3082CB535BC001C6F6F /* Week3_Practice.swift */,
 				91D5C30A2CB53AAB001C6F6F /* Week3_Assignment.swift */,
 			);
 			path = Week3;
+			sourceTree = "<group>";
+		};
+		91D5C3112CDA1B57001C6F6F /* Week4 */ = {
+			isa = PBXGroup;
+			children = (
+				91D5C3122CDA1B75001C6F6F /* Week4_Practice.swift */,
+				91861D122CE3C6E2003D5EF5 /* Week4_Assignment.swift */,
+			);
+			path = Week4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,8 +177,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				91D5C30B2CB53AAB001C6F6F /* Week3_Assignment.swift in Sources */,
+				91D5C3132CDA1B75001C6F6F /* Week4_Practice.swift in Sources */,
 				91D5C2FA2CB5350C001C6F6F /* GDG_WeeklyiOS_binschocolateApp.swift in Sources */,
-				91D5C3092CB535BC001C6F6F /* Week3.swift in Sources */,
+				91861D182CE3C726003D5EF5 /* Week5_Assignment.swift in Sources */,
+				91D5C3092CB535BC001C6F6F /* Week3_Practice.swift in Sources */,
+				91861D162CE3C719003D5EF5 /* Week5_Practice.swift in Sources */,
+				91861D132CE3C6E2003D5EF5 /* Week4_Assignment.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +324,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,9 +332,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "gdgoncampus.GDG-WeeklyiOS-binschocolate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -321,6 +358,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -328,9 +366,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "gdgoncampus.GDG-WeeklyiOS-binschocolate";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

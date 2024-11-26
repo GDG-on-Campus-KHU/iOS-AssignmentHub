@@ -19,7 +19,24 @@ struct GDG_WeeklyiOS_2dubuApp: App {
                     }
                     
                     Section("Week 4") {
+                        AssignmentLink(destination: Week4_Practice(), label: "Week4 Practice")
                         AssignmentLink(destination: Week4_Assignment(), label: "Week4 Assignment")
+                    }
+                    
+                    Section("Week 5") {
+                        AssignmentLink(destination: Week5_Assignment1(), label: "Week5 Assignment1")
+                        AssignmentLink(destination: Week5_Assignment2(), label: "Week5 Assignment2")
+                    }
+                    
+                    Section("Week 6") {
+                        AssignmentLink(destination: Week6_Practice(), label: "Week6 Practice")
+                        AssignmentLink(destination: Week6_Assignment(), label: "Week6_Assignment")
+                    }
+                    
+                    Section("etc") {
+                        AssignmentLink(destination: PrettyTimer(), label: "PrettyTimer (SprintChallenge)")
+                        AssignmentLink(destination: RandomColorApp(), label: "Random Color App")
+                        AssignmentLink(destination: MoodApp(), label: "Mood App")
                     }
                 }
                 .navigationTitle("GDG WeeklyiOS 😼")
