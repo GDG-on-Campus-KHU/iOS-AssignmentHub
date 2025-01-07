@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		C600383E2CD9054C006C6F4D /* Week4_Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C600383D2CD9054C006C6F4D /* Week4_Assignment.swift */; };
 		C60038402CDA1B96006C6F4D /* Week4_Practice.swift in Sources */ = {isa = PBXBuildFile; fileRef = C600383F2CDA1B96006C6F4D /* Week4_Practice.swift */; };
+		C633538C2D2D2EA900136CE8 /* Week8_Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C633538B2D2D2E9F00136CE8 /* Week8_Assignment.swift */; };
 		C64C28302CE3095F00131B70 /* Week5_Assignment2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64C282F2CE3095F00131B70 /* Week5_Assignment2.swift */; };
 		C64C28322CE3156600131B70 /* Week5_Assignment1.swift in Sources */ = {isa = PBXBuildFile; fileRef = C64C28312CE3156600131B70 /* Week5_Assignment1.swift */; };
 		C6516E962CEACF2100FCFAF2 /* PrettyTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6516E952CEACF1000FCFAF2 /* PrettyTimer.swift */; };
@@ -35,6 +36,7 @@
 /* Begin PBXFileReference section */
 		C600383D2CD9054C006C6F4D /* Week4_Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4_Assignment.swift; sourceTree = "<group>"; };
 		C600383F2CDA1B96006C6F4D /* Week4_Practice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week4_Practice.swift; sourceTree = "<group>"; };
+		C633538B2D2D2E9F00136CE8 /* Week8_Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week8_Assignment.swift; sourceTree = "<group>"; };
 		C64C282F2CE3095F00131B70 /* Week5_Assignment2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week5_Assignment2.swift; sourceTree = "<group>"; };
 		C64C28312CE3156600131B70 /* Week5_Assignment1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week5_Assignment1.swift; sourceTree = "<group>"; };
 		C6516E952CEACF1000FCFAF2 /* PrettyTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrettyTimer.swift; sourceTree = "<group>"; };
@@ -78,6 +80,14 @@
 				C600383D2CD9054C006C6F4D /* Week4_Assignment.swift */,
 			);
 			path = Week4;
+			sourceTree = "<group>";
+		};
+		C633538A2D2D2E8D00136CE8 /* Week8 */ = {
+			isa = PBXGroup;
+			children = (
+				C633538B2D2D2E9F00136CE8 /* Week8_Assignment.swift */,
+			);
+			path = Week8;
 			sourceTree = "<group>";
 		};
 		C64C282E2CE3095600131B70 /* Week5 */ = {
@@ -163,6 +173,7 @@
 				C600383C2CD90522006C6F4D /* Week4 */,
 				C64C282E2CE3095600131B70 /* Week5 */,
 				C6516F552CF5BD1600FCFAF2 /* Week6 */,
+				C633538A2D2D2E8D00136CE8 /* Week8 */,
 				C65FCAB22CDB29DC00A184E3 /* ETC */,
 				C6516E942CEACEF500FCFAF2 /* SprintChallenge */,
 				C6FBDF192CB535060093B962 /* Assets.xcassets */,
@@ -242,6 +253,8 @@
 				Base,
 			);
 			mainGroup = C6FBDF092CB535050093B962;
+			packageReferences = (
+			);
 			productRefGroup = C6FBDF132CB535050093B962 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -277,6 +290,7 @@
 				C65FCAB42CDB29FD00A184E3 /* MoodApp.swift in Sources */,
 				C600383E2CD9054C006C6F4D /* Week4_Assignment.swift in Sources */,
 				C6516F592CF5BFD900FCFAF2 /* Week6_Assignment.swift in Sources */,
+				C633538C2D2D2EA900136CE8 /* Week8_Assignment.swift in Sources */,
 				C6FBDF272CB53AA10093B962 /* Week3_Assignment.swift in Sources */,
 				C6516E962CEACF2100FCFAF2 /* PrettyTimer.swift in Sources */,
 				C65FCAB62CDB2B2C00A184E3 /* RandomColorApp.swift in Sources */,
@@ -440,7 +454,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "gdgoncampus.GDG-WeeklyiOS-2dubu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				_EXPERIMENTAL_SWIFT_EXPLICIT_MODULES = YES;
 			};
@@ -472,7 +486,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "gdgoncampus.GDG-WeeklyiOS-2dubu";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 6.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				_EXPERIMENTAL_SWIFT_EXPLICIT_MODULES = YES;
 			};
