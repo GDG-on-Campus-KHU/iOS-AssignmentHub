@@ -14,7 +14,7 @@ struct MyData: Decodable {
 
 struct Week8_Assignment: View {
     @StateObject private var viewModel = Week8_AssignmentViewModel()
-    @State var temp: Int = 1
+    @State var tempID: Int = 1
     
     var body: some View {
         VStack {
@@ -26,51 +26,65 @@ struct Week8_Assignment: View {
                     Text(myData.body)
                         .font(.headline)
                 }
+                .transition(.opacity)
             }
             
             if viewModel.isLoading {
                 ProgressView()
             }
-         
-            Button {
-                viewModel.fetch(id: String(temp))
-                self.temp += 1
-            } label: {
-                Text("fetch data")
-            }
-            .padding(.top, 20)
             
-            Button {
-                viewModel.clearData()
-            } label: {
-                Text("clear")
+            HStack(spacing: 20) {
+                Button("Fetch Data") {
+                    viewModel.fetchData(for: String(tempID))
+                    tempID += 1
+                }
+                .buttonStyle(.bordered)
+                
+                Button("Clear Data") {
+                    viewModel.clearData()
+                }
+                .buttonStyle(.bordered)
             }
-            .padding(.top, 20)
         }
     }
 }
 
-class Week8_AssignmentViewModel: ObservableObject {
+final class Week8_AssignmentViewModel: ObservableObject {
     @Published var myData: MyData?
     @Published var isLoading: Bool = false
     
-    let url: String = "https://jsonplaceholder.typicode.com/posts/"
+    private let baseURL: String = "https://jsonplaceholder.typicode.com/posts/"
     
-    func fetch(id: String) {
-        isLoading = true
-        clearData()
-        guard let myURL = URL(string: url + id) else { return }
+    func fetchData(for id: String) {
+        guard let url = URL(string: baseURL + id) else {
+            print("Invalid URL")
+            return
+        }
         
-        URLSession.shared.dataTask(with: myURL) { data, _, error in
-            if let data {
+        DispatchQueue.main.async {
+            self.isLoading = true
+            self.clearData()
+        }
+        
+        URLSession.shared.dataTask(with: url) { [weak self] data, _, error in
+            DispatchQueue.main.async {
+                defer { self?.isLoading = false }
+                
+                if let error = error {
+                    print("Fetch Error: \(error.localizedDescription)")
+                    return
+                }
+                
+                guard let data = data else {
+                    print("No Data Received")
+                    return
+                }
+                
                 do {
-                    let myData = try JSONDecoder().decode(MyData.self, from: data)
-                    DispatchQueue.main.async {
-                        self.myData = myData
-                        self.isLoading = false
-                    }
+                    let decodedData = try JSONDecoder().decode(MyData.self, from: data)
+                    withAnimation { self?.myData = decodedData }
                 } catch {
-                    print(error.localizedDescription)
+                    print("Decoding Error: \(error.localizedDescription)")
                 }
             }
         }
