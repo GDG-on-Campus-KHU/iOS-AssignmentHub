@@ -7,11 +7,6 @@
 
 import SwiftUI
 
-struct MyData: Decodable {
-    let title: String
-    let body: String
-}
-
 struct Week8_Assignment: View {
     @StateObject private var viewModel = Week8_AssignmentViewModel()
     @State var tempID: Int = 1
@@ -92,6 +87,6 @@ final class Week8_AssignmentViewModel: ObservableObject {
     }
     
     func clearData() {
-        self.myData = nil
+        myData = nil
     }
 }

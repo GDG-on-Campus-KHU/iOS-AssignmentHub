@@ -25,6 +25,14 @@
 		C65FCAAF2CDA20C100A184E3 /* RadiusBorder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65FCAAE2CDA20C100A184E3 /* RadiusBorder.swift */; };
 		C65FCAB42CDB29FD00A184E3 /* MoodApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65FCAB32CDB29FD00A184E3 /* MoodApp.swift */; };
 		C65FCAB62CDB2B2C00A184E3 /* RandomColorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C65FCAB52CDB2B2C00A184E3 /* RandomColorApp.swift */; };
+		C6F57E902D40EF2B008CD8CE /* Week9_Assignment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F57E8F2D40EF2B008CD8CE /* Week9_Assignment.swift */; };
+		C6F57E932D40EFAD008CD8CE /* MyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F57E922D40EFAD008CD8CE /* MyData.swift */; };
+		C6F57E962D40F00E008CD8CE /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F57E952D40F00B008CD8CE /* API.swift */; };
+		C6F57E992D40F3BA008CD8CE /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = C6F57E982D40F3BA008CD8CE /* CombineMoya */; };
+		C6F57E9B2D40F3BA008CD8CE /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = C6F57E9A2D40F3BA008CD8CE /* Moya */; };
+		C6F57E9D2D40F3BA008CD8CE /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = C6F57E9C2D40F3BA008CD8CE /* ReactiveMoya */; };
+		C6F57E9F2D40F3BA008CD8CE /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = C6F57E9E2D40F3BA008CD8CE /* RxMoya */; };
+		C6F57EA22D40F3C7008CD8CE /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = C6F57EA12D40F3C7008CD8CE /* Moya */; };
 		C6FBDF162CB535050093B962 /* GDG_WeeklyiOS_2dubuApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FBDF152CB535050093B962 /* GDG_WeeklyiOS_2dubuApp.swift */; };
 		C6FBDF1A2CB535060093B962 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FBDF192CB535060093B962 /* Assets.xcassets */; };
 		C6FBDF1D2CB535060093B962 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6FBDF1C2CB535060093B962 /* Preview Assets.xcassets */; };
@@ -53,6 +61,9 @@
 		C65FCAAE2CDA20C100A184E3 /* RadiusBorder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusBorder.swift; sourceTree = "<group>"; };
 		C65FCAB32CDB29FD00A184E3 /* MoodApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodApp.swift; sourceTree = "<group>"; };
 		C65FCAB52CDB2B2C00A184E3 /* RandomColorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomColorApp.swift; sourceTree = "<group>"; };
+		C6F57E8F2D40EF2B008CD8CE /* Week9_Assignment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Week9_Assignment.swift; sourceTree = "<group>"; };
+		C6F57E922D40EFAD008CD8CE /* MyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyData.swift; sourceTree = "<group>"; };
+		C6F57E952D40F00B008CD8CE /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		C6FBDF122CB535050093B962 /* GDG-WeeklyiOS-2dubu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GDG-WeeklyiOS-2dubu.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6FBDF152CB535050093B962 /* GDG_WeeklyiOS_2dubuApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GDG_WeeklyiOS_2dubuApp.swift; sourceTree = "<group>"; };
 		C6FBDF192CB535060093B962 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -67,6 +78,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6F57E9B2D40F3BA008CD8CE /* Moya in Frameworks */,
+				C6F57E992D40F3BA008CD8CE /* CombineMoya in Frameworks */,
+				C6F57E9F2D40F3BA008CD8CE /* RxMoya in Frameworks */,
+				C6F57EA22D40F3C7008CD8CE /* Moya in Frameworks */,
+				C6F57E9D2D40F3BA008CD8CE /* ReactiveMoya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -145,6 +161,23 @@
 			path = ETC;
 			sourceTree = "<group>";
 		};
+		C6F57E8E2D40EF20008CD8CE /* Week9 */ = {
+			isa = PBXGroup;
+			children = (
+				C6F57E952D40F00B008CD8CE /* API.swift */,
+				C6F57E8F2D40EF2B008CD8CE /* Week9_Assignment.swift */,
+			);
+			path = Week9;
+			sourceTree = "<group>";
+		};
+		C6F57E912D40EF58008CD8CE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C6F57E922D40EFAD008CD8CE /* MyData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C6FBDF092CB535050093B962 = {
 			isa = PBXGroup;
 			children = (
@@ -169,11 +202,13 @@
 				C6516EA22CEACF9500FCFAF2 /* Fonts */,
 				C6FBDF282CB55BFD0093B962 /* Helper */,
 				C6516E972CEACF4700FCFAF2 /* Component */,
+				C6F57E912D40EF58008CD8CE /* Model */,
 				C6FBDF232CB5352B0093B962 /* Week3 */,
 				C600383C2CD90522006C6F4D /* Week4 */,
 				C64C282E2CE3095600131B70 /* Week5 */,
 				C6516F552CF5BD1600FCFAF2 /* Week6 */,
 				C633538A2D2D2E8D00136CE8 /* Week8 */,
+				C6F57E8E2D40EF20008CD8CE /* Week9 */,
 				C65FCAB22CDB29DC00A184E3 /* ETC */,
 				C6516E942CEACEF500FCFAF2 /* SprintChallenge */,
 				C6FBDF192CB535060093B962 /* Assets.xcassets */,
@@ -254,6 +289,7 @@
 			);
 			mainGroup = C6FBDF092CB535050093B962;
 			packageReferences = (
+				C6F57EA02D40F3C7008CD8CE /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			productRefGroup = C6FBDF132CB535050093B962 /* Products */;
 			projectDirPath = "";
@@ -288,6 +324,8 @@
 				C6516E9A2CEACF6600FCFAF2 /* CapsuleView.swift in Sources */,
 				C6516E9B2CEACF6600FCFAF2 /* SimpleButton.swift in Sources */,
 				C65FCAB42CDB29FD00A184E3 /* MoodApp.swift in Sources */,
+				C6F57E932D40EFAD008CD8CE /* MyData.swift in Sources */,
+				C6F57E902D40EF2B008CD8CE /* Week9_Assignment.swift in Sources */,
 				C600383E2CD9054C006C6F4D /* Week4_Assignment.swift in Sources */,
 				C6516F592CF5BFD900FCFAF2 /* Week6_Assignment.swift in Sources */,
 				C633538C2D2D2EA900136CE8 /* Week8_Assignment.swift in Sources */,
@@ -296,6 +334,7 @@
 				C65FCAB62CDB2B2C00A184E3 /* RandomColorApp.swift in Sources */,
 				C6FBDF162CB535050093B962 /* GDG_WeeklyiOS_2dubuApp.swift in Sources */,
 				C65FCAAF2CDA20C100A184E3 /* RadiusBorder.swift in Sources */,
+				C6F57E962D40F00E008CD8CE /* API.swift in Sources */,
 				C64C28322CE3156600131B70 /* Week5_Assignment1.swift in Sources */,
 				C6FBDF2A2CB55C170093B962 /* View+Extension.swift in Sources */,
 				C6516E9D2CEACF8100FCFAF2 /* Font+Extension.swift in Sources */,
@@ -514,6 +553,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C6F57E972D40F3BA008CD8CE /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		C6F57EA02D40F3C7008CD8CE /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C6F57E982D40F3BA008CD8CE /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6F57E972D40F3BA008CD8CE /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		C6F57E9A2D40F3BA008CD8CE /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6F57E972D40F3BA008CD8CE /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		C6F57E9C2D40F3BA008CD8CE /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6F57E972D40F3BA008CD8CE /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		C6F57E9E2D40F3BA008CD8CE /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6F57E972D40F3BA008CD8CE /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		C6F57EA12D40F3C7008CD8CE /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6F57EA02D40F3C7008CD8CE /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C6FBDF0A2CB535050093B962 /* Project object */;
 }

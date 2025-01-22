@@ -33,8 +33,12 @@ struct GDG_WeeklyiOS_2dubuApp: App {
                         AssignmentLink(destination: Week6_Assignment(), label: "Week6 Assignment")
                     }
                     
-                    Section("Week 8") {
+                    Section("Week 8 (URLSession)") {
                         AssignmentLink(destination: Week8_Assignment(), label: "Week8 Assignment")
+                    }
+                    
+                    Section("Week 9 (Moya)") {
+                        AssignmentLink(destination: Week9_Assignment(), label: "Week9 Assignment")
                     }
                     
                     Section("etc") {
