@@ -11,7 +11,7 @@ import SwiftUI
 struct GDG_WeeklyiOS_Gardeniaa101App: App {
     var body: some Scene {
         WindowGroup {
-            Week4_Practice()
+            Week8_Assignment()
         }
     }
 }
